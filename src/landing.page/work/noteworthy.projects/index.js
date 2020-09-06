@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Section, Link } from "../../../app/components";
+// import { Section, Link } from "../../../app/components";
 import Project from "./project";
 
 const NoteworthyProjects = ({ noteworthyProjects = [] }) => (

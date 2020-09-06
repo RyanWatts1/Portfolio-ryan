@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import styled from "styled-components";
 
 import logo from "../../../logo.svg";
 import { Button } from "../../components";
-import { useEventListener } from "./useScroll";
 
 const Navigation = ({ hidden, scrollUp, scrollDown }) => {
   console.log(hidden && "HIDDEN", scrollUp ? "UP" : "DOWN");
